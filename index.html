@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="(min-width:992px)" href="css/desktop.css">
+    <link rel="stylesheet" media="(max-width:992px)" href="css/style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+  <header class="main-section">
+    <section class="toolbar">
+      <nav class="desktop">
+        <div class="all-item"><a href="#">NAME</a></div>
+        <div class="desk-item">
+          <div><a href="#portfolio">Projects</a></div>
+          <div><a href="#about">About</a></div>
+          <div><a href="#contact">Contact</a></div>
+        </div>
+        <div class="mobile-item">
+          <div class="item close"><a href="#" class="closeMenu"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+          <div class="mobile-nav"><a href="#portfolio" class="closeMenu">Portfolio</a></div>
+          <div class="mobile-nav"><a href="#about" class="closeMenu">About</a></div>
+          <div class="mobile-nav"><a href="#contact" class="closeMenu">Contact</a></div>
+        </div>
+        <div class="item menu"><a href="#" class="openMenu"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
+      </nav>
+    </section>
+  </header>
+  <main class="main-parts">
+    <section class="headline-section">
+      <h1 id="animated-header">Hola, soy Diego Lara Rojas</h1>
+      <p id="animated-paragraph">Soy un estudiante de Analizis y desarrollo de software apasionado por la innovación y la resolución de problemas. Encuentro satisfacción en mejorar la lógica y la arquitectura de proyectos para su escalabilidad. Mi principal habilidad es comprender y optimizar sistemas complejos para alcanzar un rendimiento y eficiencia superior. 
+        </p>
+
+      <P class="connect">LET'S CONNECT</P>
+      <ul class="social-icon">
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>  
+      </ul>
+    </section>
+    <section class="works" id="portfolio">
+    </section>
+    <section class="about-myself" id="about">
+      <div class="desk-about">
+        <h1>Sobre <br> mi</h1>
+        <p>Soy un estudiante del Servicion Nacional de Aprendizaje, Me enfoco en optimizar el rendimiento del sistema mediante la implementación de prácticas de codificación eficientes, la mejora de la arquitectura del software y la utilización de herramientas de monitoreo y análisis. Mi objetivo es proporcionar soluciones que no solo cumplan con los requisitos actuales, sino que también sean flexibles para adaptarse a futuras necesidades y mejoras.</p>
+        <P class="connect">LET'S CONNECT</P>
+        <ul class="contact-icon">
+          <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+        <button class="resume">Get My Resume</button>
+      </div>
+      <div class="expertise">
+        <ul class="language">
+          <li>
+            <p>Languages</p>
+          </li>
+          <li><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+        </ul>
+        <div class="desk-programming">
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/javaScript.png" alt="JavaScript"></li>
+            <li>
+              <p>JavaScript</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/html.png" alt="HTML"></li>
+            <li>
+              <p>HTML</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/css.png" alt="CSS"></li>
+            <li>
+              <p>CSS</p>
+            </li>
+          </ul>
+        </div>
+        <!-- <ul class="framework">
+          <li class="flex-items">
+            <p>Frameworks</p>
+          </li>
+          <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+        </ul>
+        <ul class="skills">
+          <li class="flex-items">
+            <p>Skills</p>
+          </li>
+          <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+        </ul> -->
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="inner-div">
+        <h2>Contact me</h2>
+        <p id="inner-div">If you have an application you are interested in developing, a feature that you need
+          built or a project that needs coding. I’d love to help with it </p>
+      </div>
+      <form action="https://formspree.io/f/xbjwrzvy" id="form" class="form" method="post">
+        <ul class="inner-list">
+          <li><input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40" maxlength="30">
+          </li>
+          <li> </li>
+          <li><input type="email" class="form-control" name="email" id="email" placeholder="Email address">
+          </li>  
+          <li> </li>
+          <li><textarea name="text" class="form-control" id="text" placeholder="Message"></textarea></li>
+          <li> </li>
+          <li class="flex-item6" id="submit-btn"><button type="submit">Get In Touch</button></li>
+          <li class="shape"><img src="./images/Shape.png" alt="shape"></li>
+        </ul>
+      </form>
+    </section>
+  </main>
+  <section class="worksPopup" id="portfolioPopup">
+  </section>
+<script src="js/main.js"></script>
+</body>
+<style>
+ @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .animate-fadeIn {
+        animation: fadeIn 1s ease-in-out;
+      }
+</style>
+<script>
+  window.addEventListener('load', function() {
+      document.getElementById('animated-header').classList.add('animate-fadeIn');
+      document.getElementById('animated-paragraph').classList.add('animate-fadeIn');
+    });
+</script>
+</html>
