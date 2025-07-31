@@ -216,7 +216,6 @@ li a {
   text-align: center;
   flex: 1 1 auto;
   justify-content: space-between;
-  border-bottom: 1px solid #acb7c3;
 }
 
 .framework p {
@@ -367,7 +366,16 @@ li a {
   font-weight: 400;
   padding-bottom: 0;
 }
+.frame {
 
+  display: flex;
+  
+  justify-content: center ;
+
+  width: 100%;
+  margin-left: 10px;
+  font-size: 25px;
+}
 .inner-div p {
   left: 24px;
   top: 4802px;

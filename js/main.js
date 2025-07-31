@@ -12,15 +12,15 @@ closeMobileItems.forEach(((element) => element.addEventListener('click', closeMo
 const projectDetail = [{
   title: 'Navify',
   exprience: ['SENA',  '2024'],
-  desription: 'Aplicativo web en fase beta basasdo en el rastreo de los vehiculos o cualquier hardware de rastreo.',
+  desription: 'Aplicativo web en fase beta basasdo en el rastreo de los vehiculos o cualquier hardware de rastreo. Usuario: Diego  Contraseña: 1234',
   popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   technologies: ['VUE', 'Mongo', 'Express'],
-  popupTech: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  popupTech: ['vue', 'mongo', 'javaScript', 'github', 'MQTT', 'Bootstrap'],
   image: './images/Snap1.png',
-  imageMobile: './images/Snapshoot1.png',
+  imageMobile: './images/Snap1.png',
   imagePopup: './images/Snap1.png',
-  imageMobilePopup: './images/Snapshoot1.png',
-  seeLive: 'https://tariktesfa.github.io/My-portfolio/',
+  imageMobilePopup: './images/Snap1.png',
+  seeLive: 'http://18.223.186.201/',
   seeSource: 'https://github.com/tariktesfa/My-portfolio',
 },
 {
@@ -29,13 +29,13 @@ const projectDetail = [{
   desription: 'Aplicativo web diseñado para la comunicacion instantanea entre dos usuarios.',
   popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   technologies: ['React', 'Cloudinary', 'Tailwind'],
-  popupTech: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  popupTech: ['html', 'css', 'javaScript', 'github', 'Mongo', 'Bootstrap'],
   image: './images/Snap2.png',
-  imageMobile: './images/Snapshoot2.png',
+  imageMobile: './images/Snap2.png',
   imagePopup: './images/Snap2.png',
-  imageMobilePopup: './images/Snapshoot2.png',
-  seeLive: 'https://tariktesfa.github.io/My-portfolio/',
-  seeSource: 'https://github.com/tariktesfa/My-portfolio',
+  imageMobilePopup: './images/Snap2.png',
+  seeLive: 'http://18.223.186.201:3000/',
+  seeSource: 'https://github.com/Diego782/RedSocial.git',
 },
 {
   title: 'Phone Store',
@@ -43,13 +43,13 @@ const projectDetail = [{
   desription: 'Diseño de aplicativo web de ejemplo para tienda de celulare, incluyendo un carrito de compra y otras funcionalidades nesesarias.',
   popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   technologies: ['html', 'javaScript', 'Boostrap'],
-  popupTech: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  popupTech: ['html', 'css', 'javaScript', 'github', 'Bootstrap'],
   image: './images/Snap3.png',
-  imageMobile: './images/Snapshoot3.png',
+  imageMobile: './images/Snap3.png',
   imagePopup: './images/Snap3.png',
-  imageMobilePopup: './images/Snapshoot3.png',
-  seeLive: 'https://tariktesfa.github.io/My-portfolio/',
-  seeSource: 'https://github.com/tariktesfa/My-portfolio',
+  imageMobilePopup: './images/Snap3.png',
+  seeLive: 'https://senaphonestore.netlify.app/',
+  seeSource: 'https://github.com/Diego782/Portfolio',
 },
 
 ];
@@ -135,7 +135,7 @@ const displayPopupModal = (i) => {
       <div class="project-tags">
           <div class="work-description">
             <p class="works-flex-item works-description">
-              ${projectDetail[i].popDescription}
+              ${projectDetail[i]}
             </p>
           </div>
           <div class="tags">
